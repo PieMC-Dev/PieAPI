@@ -7,3 +7,13 @@ class Player:
   
   def damaged():
     Player(Health = Player(Health) - 0.5)
+
+def fatigued():
+  if Player(Health == 1):
+    Player.Fatigued = True
+  if Player(Health == 1 && Hunger == 3):
+    Player.Fatigued = True
+    if Player(Hunger == 3):
+    Player.Fatigued = True
+    else
+    Player.Fatigued = False
