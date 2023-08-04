@@ -17,3 +17,9 @@ def fatigued():
     Player.Fatigued = True
     else
     Player.Fatigued = False
+
+def isOP():
+  if Player(PieMC.server.ops(Player)) == True:
+    Player.isOP = True
+    else
+    Player.isOP = False
