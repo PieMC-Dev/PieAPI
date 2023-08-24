@@ -1,3 +1,4 @@
+# this Player class is Broken Do not use/rely on
 from piemc.player.Player import Player
 class Player:
   Player.gamemode = gamemode
